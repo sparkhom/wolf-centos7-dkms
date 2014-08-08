@@ -1,4 +1,4 @@
-obj-m += chromeos_laptop.o
+obj-m += chromeos_laptop_wolf.o
 
 KDIR := /lib/modules/$(shell uname -r)/build
 PWD := $(shell pwd)
